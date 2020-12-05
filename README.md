@@ -2,7 +2,6 @@
 
 ## Install
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
     $ cd forex-live-wall
     $ npm install
 
