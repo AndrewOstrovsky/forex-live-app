@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "rootDirs": ["./src", "./test"],
+      "lib": ["dom"],
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true
+    }
+}

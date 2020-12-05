@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<table
+  className="c-table"
+>
+  <thead>
+    <tr
+      className="c-table-row-heading"
+    >
+      <th
+        className="c-table-cell"
+      >
+        Pair
+      </th>
+      <th
+        className="c-table-cell"
+      >
+        Bid
+      </th>
+      <th
+        className="c-table-cell"
+      >
+        Ask
+      </th>
+      <th
+        className="c-table-cell"
+      >
+        Change %
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="c-table-row"
+    >
+      <td
+        className="c-table-cell"
+      >
+        EUR/USD
+      </td>
+      <td
+        className="c-table-cell"
+      >
+        1.21218
+      </td>
+      <td
+        className="c-table-cell"
+      >
+        1.21218
+      </td>
+      <td
+        className="c-table-cell c-table-cell--negative"
+      >
+        -0.20
+        %
+      </td>
+    </tr>
+    <tr
+      className="c-table-row"
+    >
+      <td
+        className="c-table-cell"
+      >
+        USD/JPY
+      </td>
+      <td
+        className="c-table-cell"
+      >
+        104.188
+      </td>
+      <td
+        className="c-table-cell"
+      >
+        104.188
+      </td>
+      <td
+        className="c-table-cell c-table-cell--positive"
+      >
+        0.34
+        %
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

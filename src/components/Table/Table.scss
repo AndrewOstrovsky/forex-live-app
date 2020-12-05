@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.c-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    &-row {
+        background: #fff;
+        border-bottom: 1px solid #dddddd;
+
+        &:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        &:last-of-type {
+            border-bottom: 2px solid $primaryColor;
+        }
+    }
+
+    &-row-heading {
+        background-color: $primaryColor;
+        color: #fff;
+        text-align: left;
+        font-weight: bold
+    }
+
+    &-cell {
+        font-size: 12px;
+        padding: 12px 15px;
+        width: 25%;
+        @include md {
+            font-size: 14px;
+        }
+        @include lg {
+            font-size: 16px;
+        }
+    }
+}

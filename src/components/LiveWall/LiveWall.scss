@@ -1,0 +1,12 @@
+.c-form {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    &-error {
+        margin-left: 10px;
+        padding: 10px;
+        color: #D8000C;
+        background-color: #FFBABA;
+    }
+}

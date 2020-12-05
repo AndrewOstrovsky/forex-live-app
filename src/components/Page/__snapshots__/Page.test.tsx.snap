@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="c-page"
+>
+  <div
+    className="c-page__container"
+  >
+    <form
+      className="c-form"
+      onSubmit={[Function]}
+    >
+      <input
+        className="c-form-input"
+        onChange={[Function]}
+        type="text"
+      />
+      <button
+        className="c-button"
+        type="submit"
+      >
+        Search
+      </button>
+    </form>
+    <table
+      className="c-table"
+    >
+      <thead>
+        <tr
+          className="c-table-row-heading"
+        >
+          <th
+            className="c-table-cell"
+          >
+            Pair
+          </th>
+          <th
+            className="c-table-cell"
+          >
+            Bid
+          </th>
+          <th
+            className="c-table-cell"
+          >
+            Ask
+          </th>
+          <th
+            className="c-table-cell"
+          >
+            Change %
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</div>
+`;
